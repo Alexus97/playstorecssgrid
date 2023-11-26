@@ -1,0 +1,7 @@
+https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem
+
+Puede practicar y estudiar el CSS Grid Layout de una manera muy interesante en el sitio web de Css Grid Garden, a través de desafíos y fases.
+
+http://www.flexboxdefense.com/
+
+https://flexboxfroggy.com/#es

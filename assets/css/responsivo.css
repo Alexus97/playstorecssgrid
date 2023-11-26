@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+    .destaques__secundario:nth-child(2),
+    .destaques__secundario:nth-child(3),
+    .destaques__secundario:nth-child(4),
+    .destaques__secundario:nth-child(5) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__principal,
+    .destaques__categorias {
+        grid-column: 1 / 5;
+    }
+
+    .populares__contenido {
+        flex-direction: column;
+    }
+
+    .populares__card {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    forma larga en el anterior bloque se deja la reducida.
+    .destaques__secundario:nth-child(2) {
+        display: none; //para que no aparesca.
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(3) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(4) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(5) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__principal {
+        background: url('../img/fortnite.jpg') center / cover no-repeat;
+        grid-column: 1 / 5; //debe de abarcar todo el tamnho de la pantalla.
+        grid-row: 1 / 3;
+    }
+
+    .destaques__categorias {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+}
+    */
+
+
+
+
+
+
+
